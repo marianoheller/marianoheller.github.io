@@ -8,6 +8,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---test": [
+      "path---test-a0e39f21c11f6a62c5ab.js",
+      "path---test-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-ba2408137731b3d3cf8c.js",
       "component---src-layouts-index-js-ba2408137731b3d3cf8c.js.map"
@@ -19,10 +23,6 @@
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-communicating-across-cultures-js": [
-      "component---src-pages-communicating-across-cultures-js-7de5cd0e0ec70f0546f9.js",
-      "component---src-pages-communicating-across-cultures-js-7de5cd0e0ec70f0546f9.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -41,18 +41,18 @@
       "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
     ],
     "app": [
-      "app-a1297e87ce56296594b8.js",
+      "app-a62a07e07249bde3814c.js",
       "build-js-styles.css",
-      "app-a1297e87ce56296594b8.js.map",
+      "app-a62a07e07249bde3814c.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---communicating-across-cultures": [
-      "path---communicating-across-cultures-a0e39f21c11f6a62c5ab.js",
-      "path---communicating-across-cultures-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-test-js": [
+      "component---src-pages-test-js-b25952bab040c4e60ae9.js",
+      "component---src-pages-test-js-b25952bab040c4e60ae9.js.map"
     ]
   }
 }
