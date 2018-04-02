@@ -2,35 +2,43 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 
-export default function BlogIndex({
-	data, // this prop will be injected by the GraphQL query below.
-}) {
-	console.log("DATA", data);
-	const { markdownRemark } = data; // data.markdownRemark holds our post data
-	const { frontmatter, html } = markdownRemark;
+export default function BlogIndex(props) {
+	const { allMarkdownRemark } = props.data; // data.markdownRemark holds our post data
+	const { edges } = allMarkdownRemark;
 	return (
-		<div className="blog-post-excerpt-container">
-			<div className="blog-post-excerpt">
-				<h1>{frontmatter.title}</h1>
-				<h4>{frontmatter.date}</h4>
-			</div>
+		<div className="index-blog-container">
+			{ edges.map( (edge) => {
+				const { node } = edge;
+				const html = node.html.slice(0,300) + "...";
+				return (
+				<div className="item-index-blog">
+					<Link to={node.frontmatter.path} >
+						<h2>{node.frontmatter.title}</h2>
+					</Link>
+					<div
+					className="excerpt-item-index-blog"
+					dangerouslySetInnerHTML={{ __html: html }}
+					/>
+				</div>
+				)
+			})}
 		</div>
 	);
 }
 
 
 export const pageQuery = graphql`
-query IndexQuery($path: String!) {
-	allMarkdownRemark(limit: 10) {
-	  edges {
-		node {
-		  frontmatter {
-			title
-			path
-		  }
+	query IndexQuery {
+		allMarkdownRemark(limit: 10) {
+			edges {
+				node {
+					html
+					frontmatter {
+						title
+						path
+					}
+				}
+			}
 		}
-	  }
 	}
-  }
-  
 `;
