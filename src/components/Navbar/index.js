@@ -39,7 +39,7 @@ const NavbarContainer = () => (
 
     <NavEnd>
       <NavItem>
-        <StyledLink to="/">Logout</StyledLink>
+        <StyledLink to="/">Next</StyledLink>
       </NavItem>
     </NavEnd>
 
