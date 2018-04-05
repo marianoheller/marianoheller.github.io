@@ -1,8 +1,16 @@
 {
   "assetsByChunkName": {
+    "path---blog-test": [
+      "path---blog-test-0aeb476f4f2cb6cea55b.js",
+      "path---blog-test-0aeb476f4f2cb6cea55b.js.map"
+    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-02e2afd1ca6f8e6d245f.js",
       "component---src-pages-index-js-02e2afd1ca6f8e6d245f.js.map"
+    ],
+    "path---blog": [
+      "path---blog-e403a57eeb2507e2f4ec.js",
+      "path---blog-e403a57eeb2507e2f4ec.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,12 +25,8 @@
       "component---src-templates-blog-post-js-ba6662a42ad48627275f.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-e4ca9b3bd0f9f44bea85.js",
-      "component---src-layouts-index-js-e4ca9b3bd0f9f44bea85.js.map"
-    ],
-    "path---page-2": [
-      "path---page-2-a0e39f21c11f6a62c5ab.js",
-      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
+      "component---src-layouts-index-js-766bf055a494c4898529.js",
+      "component---src-layouts-index-js-766bf055a494c4898529.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -40,19 +44,19 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
+    "component---src-pages-blog-js": [
+      "component---src-pages-blog-js-e50f2f98f9d5f08d9d1f.js",
+      "component---src-pages-blog-js-e50f2f98f9d5f08d9d1f.js.map"
     ],
     "app": [
-      "app-313d7b20f435dc4a2dcc.js",
+      "app-1c62abdbc1cd352f1dab.js",
       "build-js-styles.css",
-      "app-313d7b20f435dc4a2dcc.js.map",
+      "app-1c62abdbc1cd352f1dab.js.map",
       "build-js-styles.css.map"
     ],
     "path---blog-communicating-across-cultures": [
-      "path---blog-communicating-across-cultures-73761df552e67acb79df.js",
-      "path---blog-communicating-across-cultures-73761df552e67acb79df.js.map"
+      "path---blog-communicating-across-cultures-db3fd908ca3c22b4456e.js",
+      "path---blog-communicating-across-cultures-db3fd908ca3c22b4456e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
