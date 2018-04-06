@@ -2,6 +2,7 @@
 path: "/blog/test"
 date: "2018-04-08"
 title: "The pursuit of perfect penmanship"
+author: "Mariano Heller"
 ---
 
 

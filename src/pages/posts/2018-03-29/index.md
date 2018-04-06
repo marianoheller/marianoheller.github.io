@@ -2,6 +2,7 @@
 path: "/blog/communicating-across-cultures"
 date: "2018-03-29"
 title: "Communicating across cultures"
+author: "Mariano Heller"
 ---
 
 
