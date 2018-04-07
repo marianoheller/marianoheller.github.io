@@ -1,9 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import styled from 'styled-components';
 
 import Navbar from '../components/Navbar'
 import './index.css'
+
+const ContentContainer = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+  font-family: 'Open Sans', sans-serif;
+`
+
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -15,16 +25,9 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Navbar />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <ContentContainer>
       {children()}
-    </div>
+    </ContentContainer>
   </div>
 )
 

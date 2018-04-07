@@ -6,8 +6,12 @@ const BlogPostContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 2em;
+  margin-bottom: 2em;
   align-items: center;
   justify-content: center;
+
+  font-family: 'Open Sans', sans-serif;
+
 `
 
 const BlogPost = styled.div`
@@ -19,12 +23,18 @@ const Title = styled.div`
   display: flex;
   font-size: 2em;
   margin-bottom: 0.5em;
+  justify-content: center;
+  text-align: center;
 `
 
 const Subtitle = styled.div`
   display: flex;
   color: #999;
-  margin-bottom: 1.5em;
+  font-size: 1em;
+  margin-bottom: 1.75em;
+
+  justify-content: center;
+  text-align: center;
 `
 
 const BlogPostContent = styled.div`
@@ -42,7 +52,7 @@ export default function Template({
     <BlogPostContainer>
       <BlogPost>
         <Title>{frontmatter.title}</Title>
-        <Subtitle>By {frontmatter.author}, {frontmatter.date}</Subtitle>
+        <Subtitle>By {frontmatter.author} - {frontmatter.date}</Subtitle>
         <BlogPostContent
           dangerouslySetInnerHTML={{ __html: html }}
         />
