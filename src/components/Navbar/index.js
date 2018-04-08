@@ -30,6 +30,9 @@ const NavItem = styled.div`
 const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
+  &:hover {
+    font-weight: bold;
+  }
 `
 const activeStyle = {
   fontWeight: "bold",

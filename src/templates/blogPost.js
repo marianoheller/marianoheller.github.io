@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const BlogPostContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  margin-top: 6em;
   margin-bottom: 2em;
   align-items: center;
   justify-content: center;
@@ -31,7 +31,6 @@ const Subtitle = styled.div`
   display: flex;
   color: #999;
   font-size: 1em;
-  margin-bottom: 1.75em;
 
   justify-content: center;
   text-align: center;
@@ -39,6 +38,9 @@ const Subtitle = styled.div`
 
 const BlogPostContent = styled.div`
   text-align: left;
+
+  margin-top: 3em;
+  margin-bottom: 3em;
 `
 
 
