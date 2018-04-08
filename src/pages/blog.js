@@ -16,7 +16,7 @@ font-family: 'Open Sans', sans-serif;
 const BlogItem = styled(Link)`
 color: black;
 text-decoration: none;
-padding: 1.5em 0;
+padding: 1.5em 1em;
 &:hover {
 	background-color: rgb(245,245,245);
 	transition: background-color 0.3s;
@@ -33,10 +33,29 @@ cursor: pointer;
 }
 `
 
-const BlogExcerpt = styled.div`
+const StyledBlogExcerpt = styled(BlogExcerpt)`
 margin-top: 2em;
+margin-bottom: 0.75em;
 font-style: italic;
 color: #555;
+max-height: 5em;
+overflow: hidden;
+text-overflow: ellipsis;
+
+
+`
+
+const ReadMore = styled.div`
+position: absolute;
+z-index: 10;
+top: 1em; 
+left: 0;
+width: 100%; 
+text-align: center; 
+margin: 0; padding: 30px 0; 
+  
+/* "transparent" only works here because == rgba(0,0,0,0) */
+background-image: linear-gradient(to bottom, transparent, white);
 `
 
 const BlogFooter = styled.div`
@@ -52,14 +71,13 @@ export default function BlogIndex(props) {
 		<IndexBlogContainer>
 		{ edges.map( (edge) => {
 			const { node } = edge;
-			const html = node.html.slice(0,300) + "...";
 			return (
 				<BlogItem to={node.frontmatter.path}>
 					<BlogTitle >
 					{node.frontmatter.title}
 					</BlogTitle>
-					<BlogExcerpt
-					dangerouslySetInnerHTML={{ __html: html }}
+					<StyledBlogExcerpt
+					dangerouslySetInnerHTML={{ __html: node.html }}
 					/>
 					<BlogFooter>
 					{node.frontmatter.date}
@@ -70,6 +88,16 @@ export default function BlogIndex(props) {
 		</IndexBlogContainer>
 	);
 }
+
+function BlogExcerpt(props) {
+	return (
+		<div className={props.className}  dangerouslySetInnerHTML={props.dangerouslySetInnerHTML}>
+			{/* <div></div> */}
+			{/* <ReadMore>Read more...</ReadMore> */}
+		</div>
+	)
+}
+
 
 
 export const pageQuery = graphql`

@@ -1,5 +1,5 @@
 ---
-path: "/blog/test"
+path: "/blog/the-pursuit-of-perfect-penmanship"
 date: "2018-04-08"
 title: "The pursuit of perfect penmanship"
 author: "Mariano Heller"
