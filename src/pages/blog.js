@@ -19,6 +19,7 @@ text-decoration: none;
 padding: 1.5em 0;
 &:hover {
 	background-color: rgb(245,245,245);
+	transition: background-color 0.3s;
 }
 `
 

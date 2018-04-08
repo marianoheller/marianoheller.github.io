@@ -31,12 +31,13 @@ const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
   &:hover {
-    font-weight: bold;
+    font-weight: 900;
   }
 `
 const activeStyle = {
   fontWeight: "bold",
-  fontSize: "1.2em"
+  fontSize: "1.2em",
+  transition: "font-size 0.1s"
 }
 
 const NavbarContainer = () => (
