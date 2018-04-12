@@ -1,6 +1,6 @@
 ---
 path: "/blog/the-pursuit-of-perfect-penmanship"
-date: "2018-04-08"
+date: "2018-04-12"
 title: "The pursuit of perfect penmanship"
 author: "Mariano Heller"
 ---
@@ -8,6 +8,7 @@ author: "Mariano Heller"
 ## Summary
 
 INTRO
+Megan Regan tries to make the case that there is a connection between pursuit of perfect penmanship and the skills brought to the labor market (human capital).
 
 Penmanship reflects a time and a place, the country or year you were born, the language you speak, the alphabet you use. In the pre-industrial revolution era, in the US the Spencer method was taught. This method took thousands of hours to perfect yet those who could write in the Specer method were labeled as "model citizens". The Spencer method was the script of business so people who wanted to comunicated in the world of business had to know the spencer method.
 
@@ -22,16 +23,13 @@ People who have invested a lot of time in pursuing their perfect penmanship also
 
 ##  My thoughts
 
-Megan Regan tries to make the case that there is a connection between pursuit of perfect penmanship and the skills brought to the labor market (human capital).
-Later on, she presents a different question, if the time invested in pursuing a perfect penmanship wasted.
-Finally a third question is asked, if the people who have invested a lot of time perfecting their penmanship have obsolete skills for the labor market.
-
+Megan Regan tries to make the case that there is a connection between pursuit of perfect penmanship and the human capital. Along the talk she also presents several different questions such as if the time invested in pursuing a perfect penmanship was wasted or not, or if the people who have invested this time on perfecting their penmanship have obsolete skills for the labor market.
+The only scientific proof she presents is the empirical research done on handwritten letter in regards to learning outcome and memory.
 In the end the speaker claims, without any foundation that the thousand of hours are not wasted because they were use in the pursue of perfection.
 
 
-
-
 ## Keywords
+
 Human capital
 Culminated
 If any at all
