@@ -30,14 +30,17 @@ const NavItem = styled.div`
 const StyledLink = styled(Link)`
   color: black;
   text-decoration: none;
+  font-size: 1rem;
   &:hover {
     font-weight: 900;
+    font-size: 1.2rem;
+    transition: font-size 0.2s ease-out;
   }
 `
 const activeStyle = {
   fontWeight: "bold",
   fontSize: "1.2em",
-  transition: "font-size 0.1s"
+  transition: "font-size 0.5s ease-in"
 }
 
 const NavbarContainer = () => (
